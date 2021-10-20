@@ -14,3 +14,14 @@ do
 fi
 done
 echo "You got " $heads  " heads and " $tails " tails!"
+
+if [ $heads -gt $tails ]
+then
+echo "Result===> Heads Win.. "
+elif [ $heads -lt $tails ]
+then
+echo "Result===> Tails Win.."
+else
+echo "Result===> Its a Draw.."
+
+fi
